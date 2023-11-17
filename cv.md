@@ -27,10 +27,11 @@ console.log(result);
 ```
 ## __Experience__
 ## __Education__
-* __University:__ Vladimir State University
-* __Courses:__
-    + Learn Javascript
-    + Free Code Camp
-    + RSSchool
++ __University:__ Vladimir State University
++ __Courses:__
+    + [Learn Javascript](https://learn.javascript.ru/)
+    + [Free Code Camp](https://www.freecodecamp.org/)
+    + [RSSchool](https://rs.school/)
+
 ## __English__
 B1
