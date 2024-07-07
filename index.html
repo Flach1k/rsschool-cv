@@ -4,11 +4,107 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <title>CV</title>
 </head>
 
 <body>
-
+    <div class="wrapper">
+        <header class="header">
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code Example</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main class="main">
+            <section class="info">
+                <div class="name">
+                    <h1 class="name-title">Belimenko Nikolai</h1>
+                    <h3 class="name-sub-title">Junior Front-End Developer</h3>
+                </div>
+                <div class=""><img class="avatar" src="img/peter.png" alt="avatar"></div>
+            </section>
+            <section id="contacts" class="contacts">
+                <h2 class="sub-title">Contacts</h2>
+                <ul class="contacts-list">
+                    <li class="contacts-item"><span class="bold">Location:</span> Vladimir, Russia</li>
+                    <li class="contacts-item"><span class="bold">Email:</span> <a href="mailto:flach1k.trash@gmail.com"
+                            class="external-link" target="_blank">flach1k.trash@gmail.com</a></li>
+                    <li class="contacts-item"><span class="bold">GitHub:</span> <a href="https://github.com/Flach1k"
+                            class="external-link" target="_blank">Flach1k</a></li>
+                    <li class="contacts-item"><span class="bold">Discord:</span> <a
+                            href="https://discordapp.com/users/107484982875795456" class="external-link"
+                            target="_blank">@Flach</a></li>
+                </ul>
+            </section>
+            <section id="about" class="about">
+                <h2 class="sub-title">About</h2>
+                <p class="section-paragraph">I have good social skills and great teamwork experience. I am ready to
+                    overcome difficulties in study and work.</p>
+            </section>
+            <section id="skills" class="skills">
+                <h2 class="sub-title">Skills</h2>
+                <ul class="skills-list">
+                    <li class="skills-item">HTML</li>
+                    <li class="skills-item">CSS</li>
+                    <li class="skills-item">JS</li>
+                    <li class="skills-item">GIT</li>
+                </ul>
+            </section>
+            <section id="code" class="code">
+                <h2 class="sub-title">Code Example</h2>
+                <pre class="code-item">
+                    <code>
+    function hello() {
+    alert('Hello!!');
+    }
+                    </code></pre>
+            </section>
+            <section id="experience" class="experience">
+                <h2 class="sub-title">Experience</h2>
+            </section>
+            <section id="education" class="education">
+                <h2 class="sub-title">Education</h2>
+                <ul class="education-list">
+                    <li class="education-item">University: Vladimir State University</li>
+                    <li class="education-item">Courses:
+                        <ul class="education-sub-list">
+                            <li class="education-sub-item"><a href="https://learn.javascript.ru/" class="external-link"
+                                    target="_blank">Learn
+                                    Javascript</a></li>
+                            <li class="education-sub-item"><a href="https://www.freecodecamp.org/" class="external-link"
+                                    target="_blank">Free
+                                    Code Camp</a></li>
+                            <li class="education-sub-item"><a href="https://rs.school/" class="external-link"
+                                    target="_blank">RSSchool</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </section>
+            <section id="english" class="english">
+                <h2 class="sub-title">English</h2>
+                <p class="section-paragraph">B1. Not great, not terrible.</p>
+            </section>
+        </main>
+        <footer class="footer">
+            <div class="footer-links">
+                <a href="https://github.com/Flach1k">
+                    <div class="link-git git"></div>
+                </a>
+                <div class="year">2024</div>
+                <a href="https://rs.school/courses/javascript-preschool-ru">
+                    <div class="link-rss rss"></div>
+                </a>
+            </div>
+        </footer>
+    </div>
 </body>
 
 </html>
