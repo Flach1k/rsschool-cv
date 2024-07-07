@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    margin: 0;
+    background-color: lightgray;
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    line-height: 1.5;
+}
+
+.wrapper {
+    background-color: white;
+    width: 1000px;
+    display: flex;
+    flex-direction: column;
+}
+
+header,
+footer {
+    padding: 20px;
+    background-color: #87cefa;
+}
+
+section {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav-list {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.info {
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.avatar {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 3px solid #00a0d4;
+    background-image: url();
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.link-git,
+.link-rss {
+    width: 100px;
+    height: 40px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.git {
+    background-image: url(img/git.png);
+    background-position: 50%;
+}
+
+.rss {
+    background-image: url(img/rss.svg);
+}
+
+.nav-link:hover {
+    color: #549e87;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #ffffff;
+    transition: color 0.5s;
+}
+
+.name-title {
+    font-size: 32px;
+    font-weight: 900;
+    text-transform: uppercase;
+    color: #00a0d4;
+}
+
+.name-sub-title {
+    text-transform: uppercase;
+    color: #a99a83;
+}
+
+.sub-title {
+    color: #437d6e;
+    font-size: 20px;
+    border-bottom: 3px solid #549E87;
+}
+
+.code-item {
+    background-color: #dddddd;
+    border-radius: 5px;
+}
+
+.year {
+    font-weight: 900;
+    text-align: center;
+}
+
+.external-link {
+    color: #a69166;
+}
+
+.bold {
+    font-weight: 900;
+}
