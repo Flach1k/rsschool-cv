@@ -20,6 +20,11 @@ body {
     flex-direction: column;
 }
 
+header,
+footer {
+    padding: 20px;
+}
+
 section {
     padding: 20px;
     display: flex;
@@ -51,6 +56,12 @@ section {
     height: 200px;
     border-radius: 50%;
     border: 3px solid #00a0d4;
+    background-image: url(img/peter.png);
+    background-size: 100%;
+}
+
+.sub-title {
+    border-bottom: 3px solid #549E87;
 }
 
 .footer-links {
@@ -58,6 +69,19 @@ section {
     justify-content: space-around;
 }
 
-.sub-title {
-    border-bottom: 3px solid #549E87;
+.link-git,
+.link-rss {
+    width: 100px;
+    height: 40px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+.git {
+    background-image: url(img/git.png);
+    background-position: 50%;
+}
+
+.rss {
+    background-image: url(img/rss.svg);
 }
